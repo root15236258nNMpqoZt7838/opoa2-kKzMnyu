@@ -151,18 +151,18 @@ $(document).ready(function(){
      const bt130k24x = document.getElementById("130k24x");
      const bt130k12x = document.getElementById("130k12x");
      bt130k36x.addEventListener("click", function(){
-         document.getElementById("plano").value = "rectcxuv4k1rPYuLN";
+         document.getElementById("plano").value = "reciewdL4Xt0ebYVQ";
          console.log(document.getElementById("plano").value)
      });
      bt130k32x.addEventListener("click", function(){
-         document.getElementById("plano").value = "recLy1oGmSkTL25Wj";
+         document.getElementById("plano").value = "recCy7SjEy4UVcNxI";
          console.log(document.getElementById("plano").value)
      });
      bt130k24x.addEventListener("click", function(){
-         document.getElementById("plano").value = "recqFh44wffv4dpxK";
+         document.getElementById("plano").value = "reclx8BXjkESzMy6Q";
          console.log(document.getElementById("plano").value)
      });
      bt130k12x.addEventListener("click", function(){
-         document.getElementById("plano").value = "recZ7xxrkI7Cl5yBl";
+         document.getElementById("plano").value = "recz31SamDPbt4qWc";
          console.log(document.getElementById("plano").value)
      });
