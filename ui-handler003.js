@@ -4,6 +4,11 @@ $(document).ready(function(){
     $("#auto-table-85k").fadeOut();
     $("#auto-table-100k").fadeOut();
     $("#auto-table-130k").fadeOut();
+    $("#comp-40k").fadeIn(300);
+    $("#comp-70k").fadeOut(300);
+    $("#comp-85k").fadeOut(300);
+    $("#comp-100k").fadeOut(300);
+    $("#comp-130k").fadeOut(300);
     });
     $(document).ready(function(){
       $("#auto-option-40k").click(function(){
@@ -232,3 +237,48 @@ $(document).ready(function(){
          parcelaPos.innerText = "R$ 3.090,00"
          parcelasPre.innerText = "12"
      });
+
+
+
+
+     document.getElementById("auto-comp-40k").addEventListener("click", function(){
+        document.getElementById("credito-comp").innerText = "R$ 40.000,00";
+         $("#comp-40k").delay(300).fadeIn(300);
+         $("#comp-70k").fadeOut(300);
+         $("#comp-85k").fadeOut(300);
+         $("#comp-100k").fadeOut(300);
+         $("#comp-130k").fadeOut(300);
+    });
+     document.getElementById("auto-comp-70k").addEventListener("click", function(){
+        document.getElementById("credito-comp").innerText = "R$ 70.000,00";
+        $("#comp-40k").fadeOut(300);
+        $("#comp-70k").delay(300).fadeIn(300);
+        $("#comp-85k").fadeOut(300);
+        $("#comp-100k").fadeOut(300);
+        $("#comp-130k").fadeOut(300);
+    });
+    document.getElementById("auto-comp-85k").addEventListener("click", function(){
+        document.getElementById("credito-comp").innerText = "R$ 85.000,00";
+        $("#comp-40k").fadeOut(300);
+        $("#comp-70k").fadeOut(300);
+        $("#comp-85k").delay(300).fadeIn(300);
+        $("#comp-100k").fadeOut(300);
+        $("#comp-130k").fadeOut(300);
+    });
+    document.getElementById("auto-comp-100k").addEventListener("click", function(){
+        document.getElementById("credito-comp").innerText = "R$ 100.000,00";
+        $("#comp-40k").fadeOut(300);
+        $("#comp-70k").fadeOut(300);
+        $("#comp-85k").fadeOut(300);
+        $("#comp-100k").delay(300).fadeIn(300);
+        $("#comp-130k").fadeOut(300);
+    });
+    document.getElementById("auto-comp-130k").addEventListener("click", function(){
+        document.getElementById("credito-comp").innerText = "R$ 130.000,00";
+        console.log(document.getElementById("credito-comp").innerText)
+        $("#comp-40k").fadeOut(300);
+        $("#comp-70k").fadeOut(300);
+        $("#comp-85k").fadeOut(300);
+        $("#comp-100k").fadeOut(300);
+        $("#comp-130k").delay(300).fadeIn(300);
+    });
