@@ -24,6 +24,7 @@ $("#trigger1").click(function(){
     $("#trigger2").fadeOut(1);
     $("#trigger3").fadeOut(1);
     reward = getRandom(prize);
+    console.log(reward);
     $("#prize-1").append(reward);
     $('#prize-block-1').append('<div class="text-block-3">você ganhou<br><span class="text-span">R$XXX,XX</span></div>');
     $('#prize-2').animate({opacity: '0.5'}, 300 );
