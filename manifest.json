@@ -1,0 +1,22 @@
+{
+  "short_name": "PHD",
+  "name": "PHD",
+  "icons": [
+      {
+      "src": "https://uploads-ssl.webflow.com/62798bc44b0fc710d9b5ad11/6293646c437de4fa72d8d5a6_ico192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://uploads-ssl.webflow.com/62798bc44b0fc710d9b5ad11/6293646c75262d4178d62d57_ico512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/minha-conta",
+  "background_color": "#001A6F",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#001A6F",
+  "description": "O jeito PHD de guardar dinheiro"
+}
