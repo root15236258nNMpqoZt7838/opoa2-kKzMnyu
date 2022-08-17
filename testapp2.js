@@ -15,7 +15,9 @@ onAuthStateChanged(auth, (user) => {
 export async function hasResgate(objId, uid) { 
   const resgate = await getDocs(query(collection(db, "resgate"), where("objId", "==", objId), where("uid", "==", uid)));
   if (resgate.docs.length >= 1) {
-    return true
+    return true;
+  } else {
+    return false;
   }
 }
 
