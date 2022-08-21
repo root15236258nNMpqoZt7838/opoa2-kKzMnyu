@@ -1,4 +1,4 @@
-function maskField(props) {
+export function maskField(props) {
     let type = props.type;
     let field = props.field;
     let value = props.value;
